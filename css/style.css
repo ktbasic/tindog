@@ -1,0 +1,54 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ffc72d, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.spotlight{
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.fs-4{
+  font-weight: bold;
+  color: white;
+}
+
+.display-4{
+  font-size: xx-large;
+}
+
+.nav-pills a{
+  color: white;
+}
+
+.display-5{
+  font-size: 63px;
+}
+
+.col-lg-8{
+  font-style: italic;
+}
